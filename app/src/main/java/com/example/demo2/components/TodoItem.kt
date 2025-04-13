@@ -128,13 +128,13 @@ fun TodoItemView(
         }
         
         // 删除按钮
-//        IconButton(onClick = { onDelete(todoItem.id) }) {
-//            Icon(
-//                imageVector = Icons.Default.Close,
-//                contentDescription = "删除",
-//                tint = Color.Gray
-//            )
-//        }
+        IconButton(onClick = { onDelete(todoItem.id) }) {
+            Icon(
+                imageVector = Icons.Default.Close,
+                contentDescription = "删除",
+                tint = Color.Gray
+            )
+        }
     }
 }
 
