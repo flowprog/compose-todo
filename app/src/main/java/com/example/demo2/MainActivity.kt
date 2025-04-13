@@ -51,8 +51,8 @@ class MainActivity : ComponentActivity() {
         super.onWindowFocusChanged(hasFocus)
         if (hasFocus) {
             // 应用获取了焦点，同步数据
-            val viewModel: TodoViewModel by viewModels()
-            viewModel.syncData()
+//            val viewModel: TodoViewModel by viewModels()
+//            viewModel.syncData()
         } else {
             // 应用失去了焦点
         }

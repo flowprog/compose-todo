@@ -21,7 +21,7 @@ class TodoViewModel(application: Application) : AndroidViewModel(application) {
         val database = AppDatabase.getDatabase(application)
         repository = TodoRepository.getInstance(database.todoDao(), database.pendingOperationDao())
         viewModelScope.launch {
-            repository.syncWithRemote()
+            //repository.syncWithRemote()
         }
     }
     
